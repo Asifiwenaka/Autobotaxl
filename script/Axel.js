@@ -10,11 +10,11 @@ module.exports = {
 
         if (!input) {
             api.sendMessage(
-                `🧸🜋𝗔𝗫𝗘𝗟 𝗖𝗢𝗣𝗜𝗟𝗢𝗧🜋🧸\n●═════❍═════●\n\nI am an AI developed by 🜋𝐎𝐋𝐈𝐕𝐄𝐑 𝐆𝐀𝐁𝐑𝐈𝐄𝐋🜋. I am here to assist you with any questions or tasks you may have.\n\nUsage: ai [your question]`,
+                `🌃 💨 ASIFIWE NAKA 💨 🌃\n●═════❍═════●\n\nI am an AI developed by 💨 ASIFIWE NAKA 💨. I am here to assist you with any questions or tasks you may have.\n\nUsage: ai [your question]`,
                 event.threadID,
                 event.messageID
             );
-            return;
+            return; 
         }
 
         api.sendMessage(`Processing your request...`, event.threadID, event.messageID);
